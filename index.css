@@ -1,0 +1,197 @@
+*{
+    padding:0;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+body{
+    background:burlywood;
+    background-size:120% 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin: 10px 0 10rem ;
+}
+
+
+.hero-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content:space-around;
+    align-items: center;
+    height: auto;
+}
+
+.field{
+    display: flex;
+    padding-left: 3px;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 3px;
+    text-transform: lowercase;
+}
+
+#firstName,#firstUserN,#secondName,#secondUserN,#lastName,#lastUserN{
+    text-transform:uppercase;
+}
+.firstUser,.seventhUser,.lastUser{
+    border: 2px solid;
+    background:#008080;
+    border-radius: 15px;
+    padding: 10px 20px;
+    line-height: 50px;
+    font-weight: 800;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+
+    span{
+        display: flex;
+    }
+    
+}
+.firstUser:hover{
+    transform: translateY(-8px);
+    background-color: burlywood;
+}
+
+.seventhUser:hover{
+    transform: translateY(-8px);
+    background-color: burlywood;
+}
+
+    .lastUser:hover{
+    transform: translateY(-8px);
+    background-color: burlywood;
+}
+
+.Card-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 20%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    box-shadow: 0 0 30px wheat;
+}
+
+#img1{
+    background-image: url("https://i.pravatar.cc/150?img=4");
+}
+
+#img7{
+    background-image: url("https://i.pravatar.cc/150?img=2");
+}
+
+#img10{
+    background-image: url("https://i.pravatar.cc/150?img=5");
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+button:hover{
+    background-color: burlywood;
+}
+button{
+    padding: 15px 15px;
+    font-family:Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius:40px;
+    cursor: pointer;
+    background-color:#008080;
+    border: 1px solid wheat;
+    color: #333333;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+}
+
+p{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Verdana, Tahoma, sans-serif;
+    color:#008080;
+}
+
+
+ /* Media  Queries 
+ Apply only when the screen width is 650px or smaller (phone)*/
+
+@media(max-width: 650px){
+
+ body{
+ background: #333333;
+ margin: 20px 120px;
+ color: #008080;
+ }
+
+ .field{
+    font-size: 20px;
+    text-transform: lowercase;
+ }
+
+ .hero-section{
+    gap: 30px;
+    justify-content: center;
+ }
+
+ .firstUser,.seventhUser,.lastUser{
+    background:#008080;
+
+}
+    
+}
+.btn {
+    button{
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+
+    p{
+        font-size: 12px;
+        font-weight: 700;
+        color: #333333;
+    }
+}
+
+h2{
+    font-size: 25px;
+}
+
+/* Small / Larger phone */
+@media(min-width:551px) and (max-width:909px) {
+    body{
+        background: #333333;
+        margin: 20px 0 10rem 0;
+        color: #008080;
+    }
+    
+    .hero-section{
+        gap: 30px;
+        justify-content: center;
+
+        .firstUser,.seventhUser,.lastUser{
+            background: #008080;
+    }
+    }
+    .btn p{
+        color: #008080; 
+    }
+    
+}
+/* Desktop or large tablets*/
+@media(min-width: 910px){
+   .hero-section{
+    gap: 60px;
+    justify-content: center;
+   }
+}
