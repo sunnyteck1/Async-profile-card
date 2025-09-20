@@ -31,7 +31,6 @@ body{
     text-align: center;
     border-radius: 3px;
     text-transform: lowercase;
-    word-break: break-word;
 }
 
 #firstName,#firstUserN,#secondName,#secondUserN,#lastName,#lastUserN{
@@ -196,4 +195,5 @@ h2{
     justify-content: center;
    }
 }
+
 
