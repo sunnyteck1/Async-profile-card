@@ -41,7 +41,7 @@
 link:https://jsonplaceholder.typicode.com/
 
 
-link:sunnyteck1.github.io/Async-profile-card/
+link: sunnyteck1.github.io/Async-profile-card/
 
 ‎
 ‎
