@@ -1,10 +1,10 @@
-Fake Profile Data Generator
+ Profile Card Data Generator
 
 ‎
 ‎A simple and responsive web application built with HTML, CSS, and JavaScript that fetches and displays fake user profile data from the JSONPlaceholder API.
 
 ‎
-‎Features
+‎Features:
 
 ‎
 ‎1.Fetches sample user profiles from a public REST API.
@@ -23,7 +23,7 @@ Fake Profile Data Generator
 
 ‎
 ‎
-‎Technologies Used
+‎Technologies Used:
 
 ‎
 ‎1.HTML – structure of the profile cards.
@@ -37,9 +37,15 @@ Fake Profile Data Generator
 ‎
 ‎ Source of fake user data : JSONPlaceholder API 
 
+
+link:https://jsonplaceholder.typicode.com/
+
+
+link:sunnyteck1.github.io/Async-profile-card/
+
 ‎
 ‎
-‎How It Works
+‎How It Works:
 
 
 ‎
