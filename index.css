@@ -6,10 +6,10 @@
 
 body{
     background:burlywood;
-    background-size:120% 120%;
+    background-size:180% 180%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
-    margin: 10px 0 10rem ;
+    margin: 50px 0 10rem 0 ;
 }
 
 
@@ -24,20 +24,21 @@ body{
 
 .field{
     display: flex;
-    padding-left: 3px;
+    padding-left: 5px;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 800;
     text-align: center;
     border-radius: 3px;
     text-transform: lowercase;
+    color:aliceblue;
 }
 
 #firstName,#firstUserN,#secondName,#secondUserN,#lastName,#lastUserN{
     text-transform:uppercase;
 }
 .firstUser,.seventhUser,.lastUser{
-    border: 2px solid;
+    border: 2px solid aliceblue;
     background:#008080;
     border-radius: 15px;
     padding: 10px 20px;
@@ -67,8 +68,8 @@ body{
 }
 
 .Card-img{
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 20%;
     background-size: cover;
     background-position: center;
@@ -124,9 +125,9 @@ p{
 
 
  /* Media  Queries 
- Apply only when the screen width is 650px or smaller (phone)*/
+ Apply only when the screen width is 550px or smaller (phone)*/
 
-@media(max-width: 650px){
+@media(max-width: 550px){
 
  body{
  background: #333333;
@@ -135,7 +136,7 @@ p{
  }
 
  .field{
-    font-size: 20px;
+    font-size: 19px;
     text-transform: lowercase;
  }
 
@@ -164,7 +165,7 @@ p{
 }
 
 h2{
-    font-size: 25px;
+    font-size: 19px;
 }
 
 /* Small / Larger phone */
@@ -195,5 +196,6 @@ h2{
     justify-content: center;
    }
 }
+
 
 
