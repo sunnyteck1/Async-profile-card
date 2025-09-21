@@ -34,8 +34,8 @@ async function fetchData() {
         const request = await fetch("https://jsonplaceholder.typicode.com/users");
         const response = await request.json();
         const firstUser = response [1];
-        const secondUser = response [4];
-        const lastUser = response [8];
+        const secondUser = response [0];
+        const lastUser = response [2];
 
         // Assigning  values to variables
 
@@ -43,7 +43,7 @@ async function fetchData() {
      firstUserN.textContent = firstUser.username;
      firstEmail. textContent = firstUser.email;
      firstPhone. textContent = firstUser.phone;
-     firstAddress. textContent = firstUser.lastAddress;
+     firstAddress. textContent = firstUser.Address;
      firstWebsite. textContent = firstUser.website;
      firstCompany. textContent = firstUser.website;
 
@@ -51,7 +51,7 @@ async function fetchData() {
      secondUserN.textContent =secondUser.username;
      secondEmail. textContent = secondUser.email;
      secondPhone. textContent = secondUser.phone;
-     secondAddress. textContent = secondUser.lastAddress;
+     secondAddress. textContent = secondUser.Address;
      secondWebsite. textContent = secondUser.website;
      secondCompany. textContent =secondUser.website;
 
@@ -59,12 +59,13 @@ async function fetchData() {
      lastUserN.textContent =lastUser.username;
      lastEmail. textContent = lastUser.email;
      lastPhone. textContent = lastUser.phone;
-     lastAddress. textContent = lastUser.lastAddress;
+     lastAddress. textContent = lastUser.Address;
      lastWebsite. textContent = lastUser.website;
     lastCompany. textContent =lastUser.website;
 
     }catch (error){
-        console.log("The error is:",error);
+        console.log("Error fetching data:",error);
 
     }
+
 }
